@@ -74,11 +74,11 @@
         /* Button interactions */
         #shield-btn, #tie-btn, #helmet-btn {
             cursor: pointer;
-            transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s ease;
+            transition: opacity 0.3s ease, visibility 0.3s ease, filter 0.3s ease;
         }
 
         #shield-btn:hover, #tie-btn:hover, #helmet-btn:hover {
-            transform: scale(1.05);
+            filter: drop-shadow(0 0 15px rgba(255, 187, 86, 0.9));
         }
 
         #shield-btn.hidden, #tie-btn.hidden, #helmet-btn.hidden {
